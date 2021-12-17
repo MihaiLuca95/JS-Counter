@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6e6e6e;
+}
+
+.counter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.btn {
+    padding: 5px 100px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: cadetblue;
+}
+
+.count {
+    margin: 0 20px;
+    font-size: 32px;
+}
+
